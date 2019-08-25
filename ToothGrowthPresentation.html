@@ -795,7 +795,7 @@ hljs.initHighlightingOnLoad();
 <section data-transition="linear" data-transition-speed="default">
 <h3>Introduction</h3>
 <div class="slideContent" >
-<p>ToothGrowth is a dataset in R containing the tooth lengths of 60 guinea pigs per supplement type and dosage. Each guinea pig received one of three dose levels of vitamin C (0.5, 1, and 2 mg/day) by one of two delivery methods, orange juice or ascorbic acid (a form of vitamin C and coded as VC).</p>
+<p>ToothGrowth is a dataset in R containing the tooth lengths (len) of 60 guinea pigs per supplement type (supp) and dosage (dose). Each guinea pig received one of three dose levels of vitamin C (0.5, 1, and 2 mg/day) by one of two delivery methods, orange juice or ascorbic acid (a form of vitamin C and coded as VC).</p>
 
 <p>This Shiny app shows the dataset &ldquo;ToothGrowth&rdquo; in R plotted based on user input of supplement type and Dosage. It also predicts the toothgrowth based on dosage by setting the slider to a certain dosage level.</p>
 
@@ -805,15 +805,7 @@ hljs.initHighlightingOnLoad();
 <section data-transition="linear" data-transition-speed="default">
 <h3>Documentation</h3>
 <div class="slideContent" >
-<p>The ToothGrowth dataset consists of a data frame with 60 observations on 3 variables.</p>
-
-<ul>
-<li>  len:      Tooth length</li>
-<li>  supp:     Supplement type (VC or OJ).</li>
-<li>  dose:   Dose in milligrams/day</li>
-</ul>
-
-<p>Here is a summary of the &ldquo;ToothGrowth&rdquo; dataset as part of the R dataset package:</p>
+<p>The ToothGrowth dataset consists of a dataframe with 60 observations on 3 variables:</p>
 
 <pre><code class="r">data(ToothGrowth)
 str(ToothGrowth)

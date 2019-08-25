@@ -15,9 +15,17 @@ This Shiny app shows the dataset "ToothGrowth" in R plotted based on user input 
 Documentation
 ========================================================
 The ToothGrowth dataset consists of a dataframe with 60 observations on 3 variables:
-```{r echo=TRUE}
+
+```r
 data(ToothGrowth)
 str(ToothGrowth)
+```
+
+```
+'data.frame':	60 obs. of  3 variables:
+ $ len : num  4.2 11.5 7.3 5.8 6.4 10 11.2 11.2 5.2 7 ...
+ $ supp: Factor w/ 2 levels "OJ","VC": 2 2 2 2 2 2 2 2 2 2 ...
+ $ dose: num  0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 ...
 ```
 
 
